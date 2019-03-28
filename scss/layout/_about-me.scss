@@ -1,0 +1,5 @@
+@import "../helpers/placeholders";
+.about-me-container {
+  @extend %column-div;
+  margin-right: 10px;
+}

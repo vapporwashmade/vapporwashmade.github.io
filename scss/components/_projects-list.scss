@@ -1,0 +1,17 @@
+@import "../helpers/mixins";
+.projects-list {
+  @include display();
+  .liContainer {
+    height: 50px;
+    margin-right: 30px;
+    @include display();
+    .changeDisplay {
+      @include display(none);
+    }
+    &:hover {
+      .changeDisplay {
+        @include display(block);
+      }
+    }
+  }
+}

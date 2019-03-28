@@ -1,0 +1,7 @@
+@import "./mixins";
+
+%column-div {
+  @include display();
+  float: left;
+  width: 49%;
+}

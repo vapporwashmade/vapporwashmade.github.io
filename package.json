@@ -1,0 +1,13 @@
+{
+  "name": "vapporwashmade.github.io",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "sass": "node-sass -r scss -o css -w"
+  },
+  "author": "Apoorv Mhaswade",
+  "license": "ISC"
+}

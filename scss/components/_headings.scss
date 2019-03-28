@@ -1,0 +1,5 @@
+@import "../helpers/fonts";
+
+h1, h2 {
+  @extend %overpass;
+}

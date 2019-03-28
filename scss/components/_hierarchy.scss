@@ -1,0 +1,27 @@
+.hierarchy {
+  p.indented {
+    text-indent: 40px;
+    display: none;
+  }
+  p.lv1desc {
+    font-weight: bold;
+  }
+  p.lv1 {
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  p.desc {
+    text-indent: 40px;
+    display: none;
+    font-size: 14px;
+  }
+  &:hover {
+    p.indented {
+      display: block;
+    }
+    p.indented:hover + p.desc {
+      display: block;
+    }
+  }
+}

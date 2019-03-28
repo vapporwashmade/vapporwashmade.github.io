@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:900");
+h1, h2 {
+  font-family: 'Overpass', 'sans-serif'; }
+
+#rollList li {
+  padding: 1em;
+  margin-bottom: .125em;
+  display: block;
+  list-style: none;
+  color: white;
+  background-color: black;
+  width: 25%; }
+
+.desc {
+  font-size: 14px; }
+
+li.roll {
+  visibility: hidden; }
+
+.rollup-list li.roll {
+  visibility: visible;
+  animation: rollup .7s 1;
+  transform-origin: 50% 0;
+  animation-fill-mode: forwards; }
+
+.rolldown-list li.roll {
+  visibility: hidden;
+  animation: rolldown .7s 1;
+  transform-origin: 50% 0;
+  animation-fill-mode: forwards; }
+
+#rollList {
+  padding: 0;
+  margin: 10px;
+  text-align: left; }
+
+@keyframes rolldown {
+  0% {
+    visibility: visible;
+    transform: rotateX(180deg) perspective(500px); }
+  70% {
+    visibility: visible;
+    transform: rotateX(-20deg); }
+  100% {
+    visibility: visible;
+    transform: rotateX(0deg); } }
+
+@keyframes rollup {
+  0% {
+    visibility: visible;
+    transform: rotateX(0deg); }
+  30% {
+    transform: rotateX(-20deg); }
+  70% {
+    visibility: hidden; }
+  100% {
+    visibility: hidden;
+    transform: rotateX(180deg) perspective(500px); } }
+
+.algs-desc {
+  font-weight: bold;
+  font-size: 18px; }

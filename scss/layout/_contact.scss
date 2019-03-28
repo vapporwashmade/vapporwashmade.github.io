@@ -1,0 +1,8 @@
+@import "../helpers/placeholders";
+.contact-container {
+  @extend %column-div;
+}
+
+.columns-container {
+  @include display();
+}

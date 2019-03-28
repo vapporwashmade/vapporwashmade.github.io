@@ -196,7 +196,7 @@
     <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vapporwashmade.github.io/public/index2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vapporwashmade.github.io/public/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vapporwashmade.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="javascript-projects.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vapporwashmade.github.io/public/javascript-projects.html" useBuiltInWebServerPort="true">
@@ -231,7 +231,7 @@
       <workItem from="1553498396571" duration="10004000" />
       <workItem from="1553577707234" duration="14827000" />
       <workItem from="1553660267866" duration="4904000" />
-      <workItem from="1553752363231" duration="1203000" />
+      <workItem from="1553752363231" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.html">
       <created>1551923628489</created>
@@ -258,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92922000" />
+    <option name="totallyTimeSpent" value="93522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1212" extended-state="6" />

@@ -9,8 +9,9 @@ function rolldownDelay() {
     });
 }
 function rollupDelay() {
-    $('.rollup-list li.roll').each(function () {
-        var delay = (2 - $(this).index() / 4) + 's';
+    var x = $('.rollup-list li.roll');
+    x.each(function () {
+        var delay = ((x.length / 4) - $(this).index() / 4) + 's';
         $(this).css({
             webkitAnimationDelay: delay,
             mozAnimationDelay: delay,

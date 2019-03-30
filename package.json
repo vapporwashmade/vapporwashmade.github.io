@@ -6,7 +6,8 @@
     "nodemon": "^1.18.10"
   },
   "scripts": {
-    "sass": "node-sass -r scss -o css -w"
+    "sass": "node-sass -rw scss -o css",
+    "node-sass": "node-sass -r scss -o css"
   },
   "author": "Apoorv Mhaswade",
   "license": "ISC"

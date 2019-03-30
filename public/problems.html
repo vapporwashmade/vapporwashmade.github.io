@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problems</title>
+    <link rel="stylesheet" href="../css/pages/pages.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="subnavbar" id="navbar1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMainNav()">&times;</a>
+        <a href="./javascript-projects.html">JavaScript Projects</a>
+        <a href="./algorithms.html" class="subdir">Algorithms</a>
+        <a href="./apps.html" class="subdir">Apps</a>
+        <a href="./misc.html" class="subdir">Miscellaneous</a>
+        <a href="./problems.html" class="subdir">Problems</a>
+    </div>
+    <button class="openbtn" onclick="openMainNav()">&#9776;</button>
+    <script src="../src/navBar.js"></script>
+    <script src="../src/rollList.js"></script>
+    <div id="main">
+        <h1>Problems</h1>
+        <p class="page-desc">This directory contains programming problems I have solved.</p>
+        <p class="click">Click for more details:</p>
+        <ul id="rollList">
+            <li class="og">Programming Problems</li>
+            <li class="roll">Anagram Tester<br>
+                <p class="desc">This program checks if two strings are anagrams of each other.</p></li>
+            <li class="roll">Base <i>n</i> Converter<br>
+                <p class="desc">Converter from bases 2, 8, 10, 16, 32 to any other base out of those 5.</p></li>
+            <li class="roll">Binary Strings<br>
+                <p class="desc">This program prints binary strings for a given number. For example, if you inputted 2, it would return ['00', '01', '10', '11'].</p></li>
+            <li class="roll">ROT13 Encoder/Decoder<br>
+                <p class="desc">This program encodes or decodes a string and rotates it by the number of your choice. It is like a secret message encoder/decoder.</p></li>
+            <li class="roll">Min/Max of an Array<br>
+                <p class="desc">This program takes in an array and finds the minimum and maximum.</p></li>
+            <li class="roll">Number of Combinations of Coins<br>
+                <p class="desc">This program finds the combinations of coins for a specific target value.<br>
+                    For example, if you inputted 10 cents as the target value, it would return: 10 pennies, 5 pennies 1 nickel, 2 nickels.</p></li>
+            <li class="roll">Password Generator<br>
+                <p class="desc">This program generates all passwords for length <i>n</i>.</p></li>
+            <li class="roll">Permutations<br>
+                <p class="desc">This program finds all the permutations of an array.</p></li>
+            <li class="roll">Find 2<sup>100</sup><br>
+                <p class="desc">Let us say you want to find 2<sup>100</sup>. Typing '2**100' into the console wouldn't work.<br>
+                    It would not provide an accurate answer because JavaScript and your computer has 64-bit architecture, and 2<sup>100</sup> is above the 64-bit limit.<br>
+                    This program provides a way of bypassing the 64-bit limit.</p></li>
+            <li class="roll">Subsequence Function<br>
+                <p class="desc">This program takes in two strings and checks if the first is a subsequence of the second.</p></li>
+            <li class="roll">Subsets<br><p class="desc">This program finds all the subsets of a given array.</p></li>
+            <li class="roll">Combinations of Numbers to 100<br>
+                <p class="desc">This program finds how many ways you can get to 100 using the digits 0-9. Example: 1+2-34+56-7-8+90=100"</p></li>
+        </ul>
+    </div>
+</body>
+</html>

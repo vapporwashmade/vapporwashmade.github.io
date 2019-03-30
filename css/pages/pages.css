@@ -57,6 +57,50 @@ li.roll {
     visibility: hidden;
     transform: rotateX(180deg) perspective(500px); } }
 
-.algs-desc {
+.page-desc {
   font-weight: bold;
   font-size: 18px; }
+
+.subnavbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #DDDDDD;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; }
+  .subnavbar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #222222;
+    display: block;
+    transition: 0.3s; }
+    .subnavbar a:hover {
+      color: rgba(100, 100, 255, 0.7); }
+  .subnavbar a.subdir {
+    text-indent: .65em; }
+  .subnavbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #DDDDDD;
+  color: #222222;
+  padding: 10px 15px;
+  border: none; }
+  .openbtn:hover {
+    background-color: #222222;
+    color: #DDDDDD; }
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px; }

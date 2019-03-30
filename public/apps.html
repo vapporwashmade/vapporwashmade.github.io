@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Apps</title>
-    <link rel="stylesheet" href="../css/pages/apps.css">
+    <link rel="stylesheet" href="../css/pages/pages.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+    <div class="subnavbar" id="navbar1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMainNav()">&times;</a>
+        <a href="./javascript-projects.html">JavaScript Projects</a>
+        <a href="./algorithms.html" class="subdir">Algorithms</a>
+        <a href="./apps.html" class="subdir">Apps</a>
+        <a href="./misc.html" class="subdir">Miscellaneous</a>
+        <a href="./problems.html" class="subdir">Problems</a>
+    </div>
+    <button class="openbtn" onclick="openMainNav()">&#9776;</button>
+    <script src="../src/navBar.js"></script>
     <div id="main">
         <script src="../src/rollList.js"></script>
         <h1>Apps</h1>

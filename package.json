@@ -2,7 +2,7 @@
   "name": "vapporwashmade.github.io",
   "version": "1.0.0",
   "dependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.18.10"
   },
   "scripts": {

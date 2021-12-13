@@ -1,9 +1,4 @@
-layout: page
-title: "My Java Projects"
-permalink: /java-projects/
 # Java Projects
-=============
-
 *   Amicable Numbers
 *   Binary Count
 *   Binary Strings

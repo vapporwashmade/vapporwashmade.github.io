@@ -1,0 +1,123 @@
+body {
+    background-color: gray;
+}
+
+.navbar {
+
+}
+
+.navlist {
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+ }
+
+.navelem {
+    font-size: 20px;
+    width: max-content;
+}
+
+.navelem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navelem a:hover {
+    background-color:blue;
+ }
+
+.full-cont {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.cont {
+    margin: 8px;
+}
+
+.link {
+    text-align: center;
+    font-size: 5vmin;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: white;
+    width: 40%;
+    height: 30%;
+    box-shadow: 0 0 2px black;
+    margin: 0 auto;
+}
+
+.desc {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.desc {
+}
+
+.link > a {
+    width: inherit;
+    height: inherit;
+    text-decoration: inherit;
+    color: black;
+}
+
+.desc a:hover, .desc a:visited:hover {
+    color: red;
+}
+
+.desc a, .desc a:visited {
+    color: blue;
+}
+
+hr {
+    height: 3px;
+    background-color: white;
+    color: white;
+}
+
+.about-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-left-col, .about-right-col {
+    flex-direction: column;
+    width: 40%;
+    margin: 10px auto auto;
+}
+
+.about {
+    border: 2px solid white;
+    padding: 15px;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.about-text {
+    color: white;
+}
+
+.about-me, .programming {
+    margin-bottom: 10px;
+}
+
+.about-website, .comp-sci-skills {
+    margin-top: 10px;
+}

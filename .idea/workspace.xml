@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ef27b46-2cb0-49c7-8ab6-3524d22ccf9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -16,6 +23,7 @@
         <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,31 +49,32 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1eJHBxvHQMHikAPW8lVLQyC6Mrh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="11.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="11.15.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript-projects" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/apoorv/vapporwashmade.github.io",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/programs/algorithms" />
@@ -140,6 +149,10 @@
       <workItem from="1594099689118" duration="1512000" />
       <workItem from="1594187339442" duration="12000" />
       <workItem from="1601532768013" duration="33000" />
+      <workItem from="1672659486701" duration="237000" />
+      <workItem from="1672716957828" duration="120000" />
+      <workItem from="1672717090572" duration="45000" />
+      <workItem from="1672717149888" duration="13027000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.html">
       <created>1551923628489</created>
@@ -174,20 +187,6 @@
     </ignored-roots>
     <MESSAGE value="Update index.html" />
     <option name="LAST_COMMIT_MESSAGE" value="Update index.html" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="555" y="257" width="800" height="712" key="#Plugins" timestamp="1594032721654">
-      <screen x="0" y="27" width="1920" height="1173" />
-    </state>
-    <state x="555" y="257" width="800" height="712" key="#Plugins/0.27.1920.1173@0.27.1920.1173" timestamp="1594032721654" />
-    <state x="743" y="370" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601532798623">
-      <screen x="0" y="27" width="1920" height="1173" />
-    </state>
-    <state x="743" y="370" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601532798623" />
-    <state x="623" y="332" width="672" height="678" key="search.everywhere.popup" timestamp="1594032967505">
-      <screen x="0" y="27" width="1920" height="1173" />
-    </state>
-    <state x="623" y="332" width="672" height="678" key="search.everywhere.popup/0.27.1920.1173@0.27.1920.1173" timestamp="1594032967505" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

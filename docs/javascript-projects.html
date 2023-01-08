@@ -1,42 +1,285 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Projects</title>
-  </head>
-  <body>
-    <h1 id="javascript-projects">JavaScript Projects</h1>
-    <ul>
-      <li><a href="../src/js-projects/decimalNumberReader/decimalNumberReader.html">Decimal Number Reader</a></li>
-      <li><a href="../src/js-projects/magicCards/magicCards.html">Magic Cards</a></li>
-      <li><a href="../src/js-projects/maze/index.html">Maze</a></li>
-      <li><a href="../src/js-projects/telephone-keypad/telephone-keypad.html">Telephone Keypad</a></li>
-      <li><a href="../src/js-projects/the-game-of-life/src/index.html">The Game of Life</a></li>
-      <li><a href="../src/js-projects/unit_converter/unit_converter.html">Unit Converter</a></li>
-      <h2><u>Need to be ported to HTML</u></h2>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/anagram_tester">Anagram Tester</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/baseNEncoderDecoder">Base N Encoder/Decoder</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/combinations">Combinations (nCr)</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/createBinary">Create Binary Strings</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/encoder_decoder">Encoder/Decoder</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/fibonacci">Fibonacci Number (using closure)</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/gcd_lcm_Finder">GCD/LCM Finder</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/min_max">Min/Max Finder</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/password">Password Generator</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/permutations">Permutations (nPr)</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/powers">Overflow Number Calculator (calculates values like 2^75)</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/primeFactors">Prime Factors</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/subsequence">Subsequences</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/subsets">Subsets</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/target100">Target 100</a></li>
-      <li><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/TwelveDaysOfChristmas">Twelve Days of Christmas</a></li>
-      <h2><u>Work in Progress</u></h2>
-      <li>2048</li>
-      <li>Battleship</li>
-      <li>Seven Segment Display</li>
-      <li>Wordscapes Helper</li>
-
+    <link rel="stylesheet" href="../pages.css"/>
+</head>
+<body>
+<script src="../main.js"></script>
+<div class="navbar">
+    <ul class="navlist">
+        <li class="navelem"><a href="../index.html">Home</a></li>
+        <li class="navelem"><a href="java-projects.html">Java Projects</a></li>
+        <li class="navelem"><a href="javascript-projects.html">JavaScript Projects</a></li>
+        <li class="navelem"><a href="manim.html">Manim Animations</a></li>
     </ul>
-  </body>
+</div>
+<hr>
+<h1 id="javascript-projects">JavaScript Projects</h1>
+<ul>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="../src/js-projects/decimalNumberReader/decimalNumberReader.html">Decimal Number Reader</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="../src/js-projects/magicCards/magicCards.html">Magic Cards</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="../src/js-projects/maze/index.html">Maze</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="../src/js-projects/telephone-keypad/telephone-keypad.html">Telephone Keypad</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="../src/js-projects/the-game-of-life/src/index.html">The Game of Life</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="../src/js-projects/unit_converter/unit_converter.html">Unit Converter</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+</ul>
+<h1>Standalone JS Programs</h1>
+<ul>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/anagram_tester">Anagram
+        Tester</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/baseNEncoderDecoder">Base N
+        Encoder/Decoder</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/combinations">Combinations
+        (nCr)</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/createBinary">Create Binary
+        Strings</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/encoder_decoder">Encoder/Decoder</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div>
+    </li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/fibonacci">Fibonacci Number
+        (using closure)</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/gcd_lcm_Finder">GCD/LCM
+        Finder</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/min_max">Min/Max Finder</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div>
+    </li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/password">Password
+        Generator</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/permutations">Permutations
+        (nPr)</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/powers">Overflow Number
+        Calculator (calculates values like 2^75)</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/primeFactors">Prime
+        Factors</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)">
+        <div class="text-prog-cont">
+        <a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/subsequence">Subsequences</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div>
+    </li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/subsets">Subsets</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/target100">Target 100</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div>
+    </li>
+    <li onclick="expand(this)"><div class="text-prog-cont"><a href="https://github.com/vapporwashmade/javascript-projects/tree/master/problems/TwelveDaysOfChristmas">Twelve
+        Days of Christmas</a></div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+</ul>
+<h1>Currently Working On</h1>
+<ul>
+    <li onclick="expand(this)">
+        <div class="text-prog-cont">2048</div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)">
+        <div class="text-prog-cont">Battleship</div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)">
+        <div class="text-prog-cont">Seven Segment Display</div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+    <li onclick="expand(this)">
+        <div class="text-prog-cont">Wordscapes Helper</div>
+        <div class="desc-prog-cont">
+            <div class="program-desc-title">
+                Program Description
+            </div>
+            <div class="program-desc">
+
+            </div>
+        </div></li>
+</ul>
+</body>
 </html>

@@ -1,0 +1,36 @@
+.navbar {
+
+}
+
+.navlist {
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.navelem {
+    font-size: 20px;
+    width: max-content;
+}
+
+.navelem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 500ms;
+}
+
+.navelem a:hover {
+    background-color: blue;
+}
+
+hr {
+    height: 3px;
+    background-color: white;
+    color: white;
+}

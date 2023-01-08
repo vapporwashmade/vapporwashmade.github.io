@@ -1,36 +1,5 @@
-body {
-    background-color: gray;
-}
-
-.navbar {
-
-}
-
-.navlist {
-    margin: auto;
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    width: fit-content;
- }
-
-.navelem {
-    font-size: 20px;
-    width: max-content;
-}
-
-.navelem a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navelem a:hover {
-    background-color:blue;
- }
+@import "navbar.css";
+@import "theme.css";
 
 .full-cont {
     display: flex;
@@ -80,12 +49,6 @@ body {
 
 .desc a, .desc a:visited {
     color: blue;
-}
-
-hr {
-    height: 3px;
-    background-color: white;
-    color: white;
 }
 
 .about-cont {

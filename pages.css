@@ -6,9 +6,9 @@ ul {
     grid-auto-flow: row;
     list-style-type: none;
     padding: 0;
-    grid-template-columns: auto auto auto;
     margin: auto;
     gap: 40px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .text-prog-cont {
@@ -21,29 +21,42 @@ ul {
     box-sizing: border-box;
     text-align: center;
     font-size: 24px;
+    padding: 20px;
 }
 
 .desc-prog-cont {
     max-height: 0;
-    border: black 0 solid;
-    transition: max-height 500ms, border 500ms;
+    transition: max-height 500ms, border 500ms, padding 500ms;
     margin-left:10px;
     margin-right:10px;
     overflow: hidden;
+    padding: 0 15px;
+    border: 0 solid black;
 }
 
 .desc-open {
     border: 3px solid black;
     border-top: none;
+    padding: 15px;
 }
 
 h1 {
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 .program-desc-title {
     text-align: center;
     font-size: 20px;
     color: white;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.program-desc-title {
+    margin: 10px;
 }

@@ -1,0 +1,318 @@
+{
+  "progfun": [
+    {
+      "name": "Amicable Numbers",
+      "desc": "Finds the pairs of amicable numbers between 1 and 1,000,000. Amicable numbers are pairs of numbers where each are the sum of the proper divisors of the other. The proper divisors of a number are the divisors excluding the number itself.",
+      "complexity": "n^2",
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/AmicableNumbers.java"
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/BinaryCount.java",
+      "name": "Binary Count",
+      "desc": "This program determines the number of times a number appears in a sorted array. Uses an algorithm based on binary search.",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/BinaryString.java",
+      "name": "Binary Strings",
+      "desc": "Models a set of binary strings of length n. For example, inputting 3 into the program will print the strings 000, 001, 010, 011, 100, 101, 110, and 111.",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/CodePoints.java",
+      "name": "Code Points",
+      "desc": "Determines the sum of code points of the characters in a string. Each character in a string corresponds to a positive number, which is called a code point.",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Converter.java",
+      "name": "Decimal Number Converter",
+      "desc": "This class converts a given decimal int value into its binary, hex, and 32-bit representations.",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/CounterfeitCoin.java",
+      "name": "Counterfeit Coin",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/CountingSort.java",
+      "name": "Counting Sort",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Cube.java",
+      "name": "Cube",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Determinant.java",
+      "name": "Determinant",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/DivisibleBy99.java",
+      "name": "Divisible By 99",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/ElementalScore.java",
+      "name": "Elemental Score",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/FactorSet.java",
+      "name": "Factor Set",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/FibonacciFun.java",
+      "name": "Fibonacci Fun",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/InstantInsanity.java",
+      "name": "Instant Insanity",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/LinearCount.java",
+      "name": "Linear Count",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/LinearSearch.java",
+      "name": "Linear Search",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/MyRational.java",
+      "name": "Implementation of Rational Numbers",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/MyString.java",
+      "name": "Implementation of String method Join",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/NumArrayProblems.java",
+      "name": "Problems on Number Arrays",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/WordWorth.java",
+      "name": "Word Worth",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Parenthesize.java",
+      "name": "Parenthesize",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Poly.java",
+      "name": "Polynomial Evaluator",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/PrimeTime.java",
+      "name": "Prime Time",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/PrintDate.java",
+      "name": "Print the Date",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/RamanujanSum.java",
+      "name": "Ramanujan Sum",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/ReciprocalSum.java",
+      "name": "Reciprocal Sum",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/RecordReader.java",
+      "name": "Record Reader",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Student.java",
+      "name": "Student",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Sorter.java",
+      "name": "Sorter",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/SpaceTimeTradeoff.java",
+      "name": "Space/Time Tradeoff",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Subsets.java",
+      "name": "Subsets",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Tower.java",
+      "name": "Tower",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Transpose.java",
+      "name": "Transpose",
+      "desc": "",
+      "complexity": ""
+    }
+  ],
+  "recur": [
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Cannonball.java",
+      "name": "Cannonball",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/DigitalRoot.java",
+      "name": "Digital Root",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/DigitSum.java",
+      "name": "Digit Sum",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Combinations.java",
+      "name": "Combinations",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/GCD.java",
+      "name": "GCD",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/GeneratePattern.java",
+      "name": "Generate a Program Pattern",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/GenerateProgram.java",
+      "name": "Generate a Program",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Maze.java",
+      "name": "Maze",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/MergeSort.java",
+      "name": "Merge Sort",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/NimMove.java",
+      "name": "Nim Move",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/NimState.java",
+      "name": "Nim State",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Permutations.java",
+      "name": "Permutations",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Power.java",
+      "name": "Power",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/PrintInteger.java",
+      "name": "Print Integer",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/QuickSort.java",
+      "name": "Quick Sort",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/SelectionSort.java",
+      "name": "Selection Sort",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Square.java",
+      "name": "Square",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/TotalNumber.java",
+      "name": "Total Number",
+      "desc": "",
+      "complexity": ""
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/TowerOfBrahma.java",
+      "name": "Towers of Brahma (Towers of Hanoi)",
+      "desc": "",
+      "complexity": ""
+    }
+  ]
+}

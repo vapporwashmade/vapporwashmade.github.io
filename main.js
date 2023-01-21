@@ -37,12 +37,12 @@ function javaProgs() {
 function createElems(key, elems) {
     console.log("creating progs");
     for (let i = 0; i < elems.length; i ++) {
-        if (!elems[i].removed) {
+        if (elems[i].removed === undefined || elems[i].removed === "False") {
             var p = elems[i];
             var e = document.createElement("li");
             var d1 = document.createElement("div");
             d1.classList.add("text-prog-cont");
-            d1.setAttribute("onclick", "expand(this.parentElement)");
+            d1.setAttribute("onclick","expand(this.parentElement)");
             var d2 = document.createElement("div");
             d2.classList.add("desc-prog-cont");
             var d1a = document.createElement("a");
@@ -54,15 +54,18 @@ function createElems(key, elems) {
             d2a.innerText = "Program Description";
             var d2b = document.createElement("div");
             d2b.classList.add("program-desc");
-            d2b.innerText = p.desc;
-            var d2c = document.createElement("div");
-            d2c.classList.add("program-desc-title");
-            d2c.innerText = "Algorithm Complexity";
-            var d2d = document.createElement("div");
-            d2d.classList.add("program-desc", "complexity");
-            d2d.innerText = "O(" + p.complexity + ")";
+            d2b.innerHTML = p.desc;
             d1.appendChild(d1a);
-            d2.append(d2a, d2b, d2c, d2d);
+            d2.append(d2a, d2b);
+            if (p.complexity !== "") {
+                var d2c = document.createElement("div");
+                d2c.classList.add("program-desc-title");
+                d2c.innerText = "Algorithm Complexity";
+                var d2d = document.createElement("div");
+                d2d.classList.add("program-desc", "complexity");
+                d2d.innerHTML = "O(" + p.complexity + ")";
+                d2.append(d2c, d2d)
+            }
             e.append(d1, d2);
             document.getElementById(key).appendChild(e);
         }

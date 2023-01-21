@@ -60,3 +60,7 @@ p {
 .program-desc-title {
     margin: 10px;
 }
+
+.complexity {
+    text-align: center;
+}

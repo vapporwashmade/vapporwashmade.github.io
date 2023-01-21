@@ -3,14 +3,14 @@
     {
       "name": "Amicable Numbers",
       "desc": "Finds the pairs of amicable numbers between 1 and 1,000,000. Amicable numbers are pairs of numbers where each are the sum of the proper divisors of the other. The proper divisors of a number are the divisors excluding the number itself.",
-      "complexity": "n^2",
+      "complexity": "n<sup>2</sup>",
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/AmicableNumbers.java"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/BinaryCount.java",
       "name": "Binary Count",
       "desc": "This program determines the number of times a number appears in a sorted array. Uses an algorithm based on binary search.",
-      "complexity": ""
+      "complexity": "log n"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/BinaryString.java",
@@ -33,169 +33,173 @@
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/CounterfeitCoin.java",
       "name": "Counterfeit Coin",
-      "desc": "",
+      "desc": "The problem goes like this: Suppose you have a number of coins and a weighing balance. All the coins are the same in every aspect. However, there is one counterfeit coin which weighs either less or more than all of the other coins. What is the minimum number of weighings you need to determine which coin is counterfeit.<br><br>{Spoiler for problem solution below}<br><br>The weighing balance can only compare two piles of coins. Since there is one counterfeit coin, you can split the pile of coins into three piles of coins and put two of them on the balance. If the weighing balance tilts, you know one of the two weighed piles contains the fake coin. You check the piles against the third pile to determine which pile contains the fake coin. If the balance does not tilt, the third pile contains the fake coin. Then, you repeat this process with the pile with the fake coin, until you are left with one coin.<br><br>There is a mathematical formula for the minimum number of weighings. However, this program finds the number by simulating the weighings recursively. Changing the function weigh() allows you to make the weighing balance partial.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/CountingSort.java",
       "name": "Counting Sort",
-      "desc": "",
-      "complexity": ""
+      "desc": "Implementation of counting sort (does not sort in-place). Iterates through the array and creates a frequency table of each of the numbers in the array. Iterates through the frequency table from lowest to highest number and adds each element to an array, and returns this new array.",
+      "complexity": "n"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Cube.java",
       "name": "Cube",
-      "desc": "",
+      "desc": "Implementation of a Cube, which has 6 sides, and one color per side.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Determinant.java",
       "name": "Determinant",
-      "desc": "",
-      "complexity": ""
+      "desc": "Calculates the determinant of a given square matrix.",
+      "complexity": "n<sup>3</sup>"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/DivisibleBy99.java",
       "name": "Divisible By 99",
-      "desc": "",
+      "desc": "This program solves this interesting number theory problem:<br><br>Find the smallest number that contains the digits 1 through 9 and is divisible by 99.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/ElementalScore.java",
       "name": "Elemental Score",
-      "desc": "",
+      "desc": "One of my favorite programs. Calculates the \"elemental scores\" of a given word and finds the English word with the highest elemental score.<br><br>To calculate an elemental score of a word, you represent the word as a series of chemical symbols and then sum their atomic numbers. For example, to calculate the elemental score of \"calculate\": C+Al+Cu+La+Te = 6+13+29+57+52 = 157 or C+Al+C+U+La+Te = 6+13+6+92+57+52 = 226.<br><br>According to this program, the English word with the highest elemental score is \"superfluousness\", with a score of 662.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/FactorSet.java",
       "name": "Factor Set",
-      "desc": "",
+      "desc": "An excellent program. Finds all the distinct sets of a specified length containing positive integers whose product is a given number.<br><br>For example, suppose I wanted to find all the 4-length sets whose elements' product is 50. The program would output nine sets: {100, 1, 1, 1}, {50, 2, 1, 1}, {25, 4, 1, 1}, {20, 5, 1, 1}, {10, 10, 1, 1}, {25, 2, 2, 1}, {10, 5, 2, 1}, {5, 5, 4, 1}, and {5, 5, 2, 2}. There are no other sets!<br><br>This program works for any number within Integer.MAX_VALUE, and may output hundreds or thousands of sets!",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/FibonacciFun.java",
       "name": "Fibonacci Fun",
-      "desc": "",
+      "desc": "Finds all the subsets of the Fibonacci series up to a specific number in which all of the digits 0-9 appear exactly once.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/InstantInsanity.java",
       "name": "Instant Insanity",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/LinearCount.java",
       "name": "Linear Count",
-      "desc": "",
-      "complexity": ""
+      "desc": "This program determines the number of times a number appears in a sorted array. Uses an algorithm based on linear search.",
+      "complexity": "n"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/LinearSearch.java",
       "name": "Linear Search",
-      "desc": "",
-      "complexity": ""
+      "desc": "Three different implementations of linear search, each very slightly faster than the previous.",
+      "complexity": "n"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/MyRational.java",
       "name": "Implementation of Rational Numbers",
-      "desc": "",
+      "desc": "My idea of how rational numbers can be stored in memory.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/MyString.java",
       "name": "Implementation of String method Join",
-      "desc": "",
+      "desc": "My implementation of the String method String.join(delimiter)",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/NumArrayProblems.java",
       "name": "Problems on Number Arrays",
-      "desc": "",
+      "desc": "This program contains various functions on number arrays.<br><br>List of methods:<ol><li>Reverses a given array in-place.</li><li>Given an array of integers between 0 and 100, returns a boolean indicating whether all numbers in the array appear at <u>most</u> once.</li><li>Given an array of integers, rearranges the array so that all zeros are shifted to the end. Modifies the array in place such that the order of the nonzero integers is preserved.</li><li>Given an array of integers, finds the length of the longest consecutive sequence of the same integer.</li><li>Given an array of digits (0-9), returns the base 10 integer it corresponds to. For example, inputting {3, 8, 2, 4, 4} would return 38244. Checks and throws an error if the number would exceed the max Long value.</li></ol>",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/WordWorth.java",
       "name": "Word Worth",
-      "desc": "",
+      "desc": "Finds the sum of the values of a given word's letters, with a=1, b=2, c=3, ... , z=26.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Parenthesize.java",
       "name": "Parenthesize",
-      "desc": "",
+      "desc": "Suppose you want to find the product of multiple operands. But multiplication is a binary operator (it only takes in two operands). So there must be an order in which you have to execute the multiplications. To remove any ambiguity about when to multiply which pair of operands, you can parenthesize the operands. But in our case, we are only able to multiply adjacent pairs of operands together. For example, if you want to multiply 1,2,3, and 4, you can parenthesize them five different ways: (1x(2x(3x4))), (1x((2x3)x4)), ((1x2)x(3x4)), ((1x(2x3))x4), (((1x2)x3)x4). You cannot multiply 1 and 3, and then 2 and 4, and then multiply those results together.<br><br>Essentially, this program finds the number of ways you can <u>parenthesize</u> the operation B1xB2xB3x...xBn. The program takes in operands as strings and only parenthesizes the operands, regardless of whether it is actually possible to multiply the operands (i.e., you can input stuff like \"a\" or \"%\").",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Poly.java",
       "name": "Polynomial Evaluator",
-      "desc": "",
+      "desc": "This program evaluates polynomials given an array of the coefficients of all the terms and the value of x. It can evaluate either iteratively or recursively. The array of polynomial coefficients should be given from lowest degree coefficient to highest degree coefficient.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/PrimeTime.java",
       "name": "Prime Time",
-      "desc": "",
-      "complexity": ""
+      "desc": "Finds the nth prime number. Uses the discovery that all primes greater than 3 can be represented as 6k+1 or 6k-1, where k is a natural number.",
+      "complexity": "n*ln(n)*sqrt(n)"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/PrintDate.java",
       "name": "Print the Date",
-      "desc": "",
+      "desc": "Prints the day number <i>n</i> for the given date in a year (1 <= n < 367). For example, Jan 1st is the 1st day, Feb 4th is the 35th day, etc.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/RamanujanSum.java",
       "name": "Ramanujan Sum",
-      "desc": "",
+      "desc": "Estimates the sum of a specific divergent infinite series until calculation is done m times. The infinite series is: sqrt(1 + 2 * sqrt (1 + 3 * sqrt (...))).",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/ReciprocalSum.java",
       "name": "Reciprocal Sum",
-      "desc": "",
+      "desc": "This program finds the sum of the reciprocals of the numbers up to n. For example, if you inputted 3, you would get 11/6, which is 1/1 + 1/2 + 1/3.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/RecordReader.java",
       "name": "Record Reader",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Student.java",
       "name": "Student",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Sorter.java",
       "name": "Sorter",
-      "desc": "",
+      "desc": "This program uses comparators and Arrays.sort to sort an array different ways.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/SpaceTimeTradeoff.java",
       "name": "Space/Time Tradeoff",
-      "desc": "",
+      "desc": "Illustrates the space/time tradeoff, an essential concept in computing, through a program which finds the nth fibonacci number.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Subsets.java",
       "name": "Subsets",
-      "desc": "",
-      "complexity": ""
+      "desc": "Finds the subsets of an array of strings.",
+      "complexity": "2<sup>n</sup>"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Tower.java",
       "name": "Tower",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/Transpose.java",
       "name": "Transpose",
-      "desc": "",
+      "desc": "Given a matrix M, returns its transpose N. Does not modify the original matrix.",
       "complexity": ""
     }
   ],
@@ -203,115 +207,118 @@
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Cannonball.java",
       "name": "Cannonball",
-      "desc": "",
+      "desc": "A recursive solution to a problem from Thinking Recursively:<br><br>The year: 1777. The setting: General Washington's camp somewhere in the colonies. The British have been shelling the Revolutionary forces with a large cannon within their camp. You have been assigned a dangerous reconnaissance mission - to infiltrate the enemy camp and determine the amount of ammunition available for that cannon. Fortunately for you, the British (being relatively neat and orderly) have stacked the cannonballs into a single pyramid-shaped stack. At the top is a single cannonball resting on a square of four cannonballs, which is itself resting on a square of nine cannonballs, and so forth. Given the danger in your situation, you only have a chance to count the number of layers before you escape back to your own encampment. If N is the number of layers, find the total number of cannonballs.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/DigitalRoot.java",
       "name": "Digital Root",
-      "desc": "",
+      "desc": "Finds the digital root of a number. To find the digital root, you sum the digits of the number and sum the digits of the result, etc, until the number has one digit.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/DigitSum.java",
       "name": "Digit Sum",
-      "desc": "",
+      "desc": "Recursively finds the sum of the digits of a number.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Combinations.java",
       "name": "Combinations",
-      "desc": "",
+      "desc": "Given a string and a number n, lists the combinations of its characters with length n. For example, given the string \"ABCD\" and the number 3, it will output \"ABC\", \"ABD\", \"ACD\", and \"BCD\"",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/GCD.java",
       "name": "GCD",
-      "desc": "",
+      "desc": "Calculates the GCD of two given integers recursively using Euclid's algorithm.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/GeneratePattern.java",
       "name": "Generate a Program Pattern",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/GenerateProgram.java",
       "name": "Generate a Program",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Maze.java",
       "name": "Maze",
-      "desc": "",
+      "desc": "Finds a recursive way to solve a maze given a start square, an end square, and walls. The maze representation is a 2-D char array, with ' ' denoting an open square, '#' denoting a wall, 'S' denoting the start square, and 'F' denoting the end square. Does not find the shortest path possible - just solves the maze any way possible.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/MergeSort.java",
       "name": "Merge Sort",
-      "desc": "",
+      "desc": "Recursive implementation of merge sort.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/NimMove.java",
       "name": "Nim Move",
-      "desc": "",
+      "desc": "Represents a move in the game of Nim, used by the program Nim State.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/NimState.java",
       "name": "Nim State",
-      "desc": "",
+      "desc": "This program represents and simulates the state of a game of Nim. In Nim, there are multiple rows, and coins in each row. On each player's turn, they can take as many coins as wanted from only one row. The player who takes the last coin wins the game.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Permutations.java",
       "name": "Permutations",
-      "desc": "",
+      "desc": "Given a string, lists the distinct permutations of its characters. For example, given the string \"ABC\", it will output \"ABC\", \"ACB\", \"BAC\", \"BCA\", \"CAB\", and \"CBA\".",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Power.java",
       "name": "Power",
-      "desc": "",
+      "desc": "Exercise 3-1 from \"Thinking Recursively\" by Eric Roberts.<br><br>Problem Statement:<br>Unlike languages designed for scientific computation, Java contains no operator to raise a number to a given power, although it does have a function in the Math class that accomplishes the task. Assuming that the exponent k is always a nonnegative integer, write a recursive function power(x, k) that raises the real value x to the k power.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/PrintInteger.java",
       "name": "Print Integer",
       "desc": "",
-      "complexity": ""
+      "complexity": "",
+      "removed": "True"
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/QuickSort.java",
       "name": "Quick Sort",
-      "desc": "",
+      "desc": "Recursive implementation of quick sort.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/SelectionSort.java",
       "name": "Selection Sort",
-      "desc": "",
+      "desc": "Recursive and iterative implementations of selection sort.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/Square.java",
       "name": "Square",
-      "desc": "",
+      "desc": "Finds the square of the given number recursively.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/TotalNumber.java",
       "name": "Total Number",
-      "desc": "",
+      "desc": "Given a hand of playing cards and a number, outputs the combinations of the cards that sum up to the number. The value of the card is the number on the card, or 1 for ace, 11 for jack, 12 for queen, and 13 for king. Valid input looks like this: String[] hand = new String[]{\"10H\", \"5H\", \"5C\", \"5S\", \"5D\"}.",
       "complexity": ""
     },
     {
       "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/recur/TowerOfBrahma.java",
       "name": "Towers of Brahma (Towers of Hanoi)",
-      "desc": "",
+      "desc": "Solves the Towers of Hanoi problem recursively, given any number of disks, a tower from which to move all the disks, a tower to move all the disks to, and an auxiliary tower which the disks can be moved to and from. Also calculates recursively the total number of moves necessary without actually finding the necessary moves.",
       "complexity": ""
     }
   ]

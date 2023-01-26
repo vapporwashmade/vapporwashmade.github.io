@@ -75,6 +75,7 @@
 
 .about-text {
     color: white;
+    padding-top: 15px;
 }
 
 .about-me, .programming {
@@ -83,4 +84,8 @@
 
 .about-website, .comp-sci-skills {
     margin-top: 10px;
+}
+
+.about-me {
+    padding: 20px;
 }

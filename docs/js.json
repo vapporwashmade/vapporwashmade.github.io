@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "Amicable Numbers",
+      "desc": "Finds the pairs of amicable numbers between 1 and 1,000,000. Amicable numbers are pairs of numbers where each are the sum of the proper divisors of the other. The proper divisors of a number are the divisors excluding the number itself.",
+      "complexity": "n<sup>2</sup>",
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/AmicableNumbers.java"
+    },
+    {
+      "link": "https://github.com/vapporwashmade/java-projects/blob/master/src/main/java/org/apoorv/progfun/BinaryCount.java",
+      "name": "Binary Count",
+      "desc": "This program determines the number of times a number appears in a sorted array. Uses an algorithm based on binary search.",
+      "complexity": "log n"
+    }
+  ],
+  "node": [
+
+  ],
+  "wip": [
+
+  ]
+}

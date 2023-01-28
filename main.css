@@ -11,36 +11,36 @@
     margin: 8px;
 }
 
+.desc {
+    text-align: center;
+    padding: 15px;
+    background-color: #5b67ba;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #efe9f4;
+    border: 3px solid #000000;
+    border-top: 0;
+}
+
 .link {
     text-align: center;
     font-size: 5vmin;
     padding: 20px;
-    border: 3px solid black;
     border-radius: 25px;
-    background-color: white;
+    border: 3px solid #000000;
+    background-color: #5b67ba;
     width: 40%;
     height: 30%;
     box-shadow: 0 0 2px black;
     margin: 0 auto;
 }
 
-.desc {
-    text-align: center;
-    padding: 15px;
-    background-color: white;
-    width: 30%;
-    margin: 0 auto;
-    font-size: 18px;
-}
-
-.desc {
-}
-
 .link > a {
     width: inherit;
     height: inherit;
     text-decoration: inherit;
-    color: black;
+    color: #efe9f4;
 }
 
 .desc a:hover, .desc a:visited:hover {
@@ -56,34 +56,27 @@
     flex-direction: row;
 }
 
-.about-left-col, .about-right-col {
-    flex-direction: column;
-    width: 40%;
-    margin: 10px auto auto;
+.about-cont > div {
+    flex-grow: 1;
+    width: 15%;
+    margin: 15px;
 }
 
 .about {
-    border: 2px solid white;
+    border: 3px solid #000000;
     padding: 15px;
+    background-color: #5b67ba;
 }
 
 .about-title {
     text-align: center;
     font-size: 24px;
-    color: white;
+    color: #efe9f4;
 }
 
 .about-text {
-    color: white;
+    color: #efe9f4;
     padding-top: 15px;
-}
-
-.about-me, .programming {
-    margin-bottom: 10px;
-}
-
-.about-website, .comp-sci-skills {
-    margin-top: 10px;
 }
 
 .about-me {

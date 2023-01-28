@@ -14,23 +14,25 @@
 .navelem {
     font-size: 20px;
     width: max-content;
+    background-color: #444444;
 }
 
 .navelem a {
     display: block;
-    color: white;
+    color: #efe9f4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: background-color 500ms;
+    transition: background-color 500ms, color 500ms;
 }
 
 .navelem a:hover {
-    background-color: blue;
+    background-color: #16bac5;
+    color: #000000;
 }
 
 hr {
-    height: 3px;
-    background-color: white;
+    height: 5px;
+    background-color: #000000;
     color: white;
 }
